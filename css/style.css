@@ -1,1 +1,26 @@
 /*định dạng*/
+*{
+	margin:0px;
+	padding:3px;
+}
+#hoten{
+	font-size:30pt;
+	color:#330080 /*màu chữ*/
+	
+}	
+.thongtin{
+	text-transform: uppercase; /*in hoa*/
+}
+
+#gioithieu{
+	font-size:15pt;
+	color:#ff6666
+}
+
+table#bang2, table#bang2 td, table#bang2 tr, table#bang2 th{
+	border: 1px solid #1aff8c;
+	border-radius: 7px;
+	width: 100%;
+    max-width: 500px;
+	margin: 15px;
+}
