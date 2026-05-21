@@ -17,10 +17,63 @@
 	color:#ff6666
 }
 
-table#bang2, table#bang2 td, table#bang2 tr, table#bang2 th{
+table#bang2{
+	width:100%;
+	max-width:500px;
+	margin: 20px 20px 20px 20px;
+}
+table#bang2, table#bang2 td:hover, table#bang2 tr, table#bang2 th{
 	border: 1px solid #1aff8c;
 	border-radius: 7px;
+}
+table#bang2 td:hover{
+	background-color: #ccff99;
+	color: #ff66b3;
+}
+.bang1{
+	margin: 20px 20px 20px 20px;
+}
+ul{
+	margin: 15px 15px;
+	/*border: 1px solid #f2a6a6;*/
+	border-radius: 7px;
+	list-style-position: inside;	
+	max-width: 500px;
+}
+
+#tieude{
+	text-transform: uppercase; /*in hoa*/
+	font-weight: border;
+}
+ul li{
+	padding: 10px;
+	border-bottom: 2px solid #a64dff;
+}
+li:hover{
+	background-color: #f2e6ff;
+    color: #b32d00;
+}
+
+.tieude{
+	text-transform: uppercase;
+	font-weight: bolder;
+	/*background-color: #ffb3b3;*/
+	font-size: 18pt;
+	max-width: 400px;
 	width: 100%;
-    max-width: 500px;
-	margin: 15px;
+	/*border-radius: 5px;*/
+	border-left: 5px solid gray;
+	padding:5px;
+	padding-left: 7px;
+}
+
+ol{
+	margin: 15px 15px;
+	border-radius: 7px;
+	list-style-position: inside;	
+	max-width: 500px;
+}
+ol li{
+	padding: 10px;
+	border-bottom:2px solid #a64dff;
 }
