@@ -1,0 +1,35 @@
+/*định dạng*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:15pt;
+	line-height:1.5;
+}
+label{
+	display:block;
+}
+form{
+	width:100%;
+	background-color:#b3ffff;
+	max-width:500px;
+	padding:10px;
+	margin:auto;
+}
+.form-control{
+	width:99%;
+	max-width:5px 0px;
+}
+#tieude{
+	text-transform:uppercase;
+	text-align:center;
+	letter-spacing:2px;
+	font-size:28pt;
+}
+.button{
+	background-color:#ccf2ff;
+	padding:3px;
+	width:150px;
+}
+#button{
+	margin:auto;
