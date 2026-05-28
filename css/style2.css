@@ -5,31 +5,66 @@
 	font-family:"Times New Roman", Times, serif;
 	font-size:15pt;
 	line-height:1.5;
+	box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center;     /* Căn giữa dọc */
+    min-height: 100vh;       /* Chiều cao bằng 100% màn hình */
+    background-color: #9698f2;
+}
+body {
+    background: linear-gradient(135deg, #47ce86 0%, #32c2c2 30%, #3b72d7 70%, #96287e 100%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
 }
 label{
 	display:block;
+	margin-top: 10px;
 }
 form{
 	width:100%;
-	background-color:#b3ffff;
+	background-color:#b17ade6e;
 	max-width:500px;
-	padding:10px;
-	margin:auto;
+	padding:20px;
+	margin: 1px solid #000;
 }
 .form-control{
-	width:99%;
-	max-width:5px 0px;
+	width:100%;
+	margin:5px 0px 15px 0px;
+	padding: 6px;
+	border: 1px solid #000;
 }
 #tieude{
 	text-transform:uppercase;
 	text-align:center;
 	letter-spacing:2px;
 	font-size:28pt;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Căn giữa 2 nút bấm */
+    gap: 0px;             
+    margin-top: 20px;
 }
 .button{
 	background-color:#ccf2ff;
 	padding:3px;
 	width:150px;
+	border: 1px solid #000;
+    cursor: pointer;
 }
-#button{
-	margin:auto;
