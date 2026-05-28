@@ -3,11 +3,68 @@
 	<head>
 		<title> ĐĂNG KÝ THÀNH VIÊN </title>
 		<meta charset="utf-8">
-		<link rel ="stylesheet" href="../css/style.css"> 
+		<link rel ="stylesheet" href="../css/style3.css"> 
 	</head>
 	<body>
 		<div class="container">
-		<input>
+		<h2>&#127900 Audition Form &#127900</h2>
+		<p class ="phude">&#127775 Hãy Trở Thành Ngôi Sao Tiếp Theo Cùng Chúng Tôi Nào &#127775</p>
+		
+		<form action ="#" method ="post">
+			<div class ="form-group">
+				<label for ="fullname">Họ Và Tên *</label>
+				<input type ="text" id ="fullname" name ="fullname" placeholder="Tên Của Bạn" required>
+			</div>
+			<div class ="form-group">
+				<label for ="dob">Ngày Sinh *</label>
+				<input type ="date" id ="dob" name ="dob" required>
+			</div>
+			<div class="form-group">
+                <label>Giới Tính *</label>
+                <div class="radio-group">
+                    <label class="radio-item"><input type="radio" name="gender" value="Nam" required> Nam</label>
+                    <label class="radio-item"><input type="radio" name="gender" value="Nữ"> Nữ</label>
+                </div>
+			</div>
+			<div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            </div>
+			<div class="form-group">
+                <label for="phone">Số Điện Thoại *</label>
+                <input type="tel" id="phone" name="phone" placeholder="0123456789" required>
+            </div>
+			<div class="form-group">
+                <label for="position">Vị Trí Sở Trường (Chọn vị trí chính) *</label>
+                <select id="position" name="position" required>
+                    <option value="" disabled selected>-- Chọn vị trí --</option>
+                    <option value="Main Vocal">Hát chính</option>
+                    <option value="Main Dancer">Nhảy chính</option>
+                    <option value="Main Rapper">Rap chính</option>
+                    <option value="Visual">Gương mặt đại diện</option>
+                    <option value="Producer">Sáng tác</option>
+                </select>
+            </div>
+			<div class="form-group">
+                <label>Kỹ Năng Khác (Có thể chọn nhiều)</label>
+                <div class="checkbox-group">
+                    <label class="checkbox-item"><input type="checkbox" name="skills" value="Biết chơi nhạc cụ"> Chơi nhạc cụ</label>
+                    <label class="checkbox-item"><input type="checkbox" name="skills" value="Biết sáng tác"> Sáng tác</label>
+                    <label class="checkbox-item"><input type="checkbox" name="skills" value="Ngoại ngữ giỏi"> Ngoại ngữ</label>
+                    <label class="checkbox-item"><input type="checkbox" name="skills" value="Diễn xuất"> Diễn xuất</label>
+                </div>
+            </div>
+			<div class="form-group">
+                <label for="video-link">Link Video Thể Hiện Tài Năng (Youtube/Drive) *</label>
+                <input type="url" id="video-link" name="video-link" placeholder="https://..." required>
+            </div>
+           <div class="form-group">
+                <label for="tieusu">Giới Thiệu Bản Thân & Kinh Nghiệm</label>
+           </div>
+			<textarea id="tieusu" name="tieusu" placeholder="Hãy chia sẻ về phong cách và kinh nghiệm của bạn..."></textarea>
+            <button type="submit">Gửi Đơn Đăng Ký</button>
+        </form>
+		</div>
 	</body>
-	</html>
+</html>
 	
