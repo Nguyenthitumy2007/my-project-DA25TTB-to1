@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family:'Times New Roman', Times, serif;
 }
 body {
-    background: linear-gradient(135deg, #090a14 0%, #1a224c 30%, #4c2675 70%, #96287e 100%);
+    background: linear-gradient(135deg, #292246 0%, #1a224c 30%, #4c2675 70%, #96287e 100%);
     color: #fff;
     display: flex;
     justify-content: center;

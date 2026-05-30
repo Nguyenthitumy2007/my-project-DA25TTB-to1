@@ -1,0 +1,109 @@
+/*định dạng*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:15pt;
+	line-height:1.5;
+	box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center;     /* Căn giữa dọc */
+    min-height: 100vh;       /* Chiều cao bằng 100% màn hình */
+    background-color: #9698f2;
+}
+body {
+    background: linear-gradient(135deg, #47ce86 0%, #32c2c2 30%, #3b72d7 70%, #96287e 100%);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.hang1{
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #555; /* Đường viền đen/xám phân chia rõ ràng */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+.hang2{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #555; /* Nét gạch ngang đầu tiên */
+    background: rgba(255, 255, 255, 0.3);
+}
+.hang2 h2 {
+    font-size: 1.6rem;
+    color: #444;
+    letter-spacing: 1px;
+}
+.hang4 {
+    display: flex; /*chia cột nằm ngang */
+    border-bottom: 2px solid #555; /* Nét gạch ngang thứ hai */
+}
+.luachoncot{
+    flex: 1;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.vienphai {
+    border-right: 2px solid #555;
+}
+.tieudecot {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #100f0f;
+    text-align: center;
+}
+.batdau{
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    background: #ffffff6e;
+    border: 1.5px solid #555;
+    padding: 5px 20px ;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+}
+.batdau:hover {
+    background: #b6bdf146; /* Đổi màu hồng tím pastel khi chỉ chuột */
+    transform: scale(1.05);
+}
+.chantrang {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.nutquaylai {
+    display: inline-block;
+    text-decoration: none;
+    color: #181818;
+    background: #dadbdf; 
+    border: 1.5px solid #555;
+    padding: 10px 40px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+.nutquaylai:hover {
+    background: #bb95d7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
