@@ -1,0 +1,89 @@
+/*định dạng*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #62c268 0%, #6bc3e0 50%, #4a58d5 100%);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+.trangchu {
+    background: rgba(255, 255, 255, 0.45);
+ 
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    width: 100%;
+    max-width: 650px;
+    padding: 35px 25px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(130, 110, 150, 0.15);
+}
+.taokhoi {
+    margin-bottom: 30px;
+}
+.taokhoi:last-child {
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 1.2rem;
+    color: #111112;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left: 4px solid #db7b7b;
+    padding-left: 10px;
+}
+.lienket {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Chia đôi thành 2 cột đều nhau */
+    gap: 15px;
+}
+.nut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.53);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    color: #0c0c0c;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.05rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+}
+.nut:hover {
+    background: #a9ea93;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(160, 140, 190, 0.2);
+}
+.lienketcon {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+    gap: 10px;
+}
+.nutphu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 5px;
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #16171a;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+  
+}
+.nutphu:hover {
+    background: #a9ea93;
+    color: #d12e7a;
+    transform: scale(1.05);
+}
