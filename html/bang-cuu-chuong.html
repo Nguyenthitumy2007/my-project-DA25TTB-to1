@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Bảng Cửu Chương</title>
+    <link rel="stylesheet" href="../css/style6.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="txtSo">Nhập vào 1 số từ 2 đến 10:</label>
+            <input type="number" id="txtSo" min="2" max="10s" placeholder="Nhập số">
+            <input type="button" id="btnPrint" value="In bảng cửu chương" onclick="printBCC(document.getElementById('txtSo').value)">
+        </form>
+        
+        <div id="result">
+            <strong>Bảng cửu chương: </strong>
+            <div id="Xuat"></div>
+        </div>
+    </div> <script src="../js/lib.js"></script>
+</body>
+</html>
+	
+	

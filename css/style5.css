@@ -1,0 +1,78 @@
+/*định dạng*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:15pt;
+	line-height:1.5;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #a6e2fd;
+    color: #1e1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.hoadon{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+h2 {
+    text-align: center;
+    color: #090909;
+    margin-bottom: 25px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+
+thead th {
+    background-color: #cb1616c9;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+tfoot tr {
+    background-color: #f8fafc;
+}
+
+.dongia{
+    text-align: center;
+}
+
+.soluong {
+    text-align: right;
+}
+
+.font-bold {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+tbody tr:hover {
+    background-color: #bee4cf;
+}
