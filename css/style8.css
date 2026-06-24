@@ -1,0 +1,50 @@
+/* Kiểu dáng chung cho các hộp lớn (mô phỏng nét vẽ khung hình chữ nhật) */
+.sketch-box {
+    border: 2px solid #555; 
+    background-color: #fcfcfc; 
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05); 
+    border-radius: 4px;
+}
+
+.box-product-image {
+ width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    border: 1px solid #666666;
+    height: 250px; width: 250px;
+    overflow: hidden;
+    display: flex;
+   
+    background-color: #f3f4f6;
+    border-radius: 4px;
+}
+
+.box-details-text {
+    padding-left: 10px;
+}
+
+.box-related {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+}
+.small-product-box {
+    width: 75px;
+    height: 75px;
+    border: 1px solid #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+/* Màu chữ xám nhạt cho các nhãn giống như nét viết chì/bút bi phụ */
+.label-text {
+    color: #101010;
+    font-style: italic;
+    font-size: 0.95rem;
+}
